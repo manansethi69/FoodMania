@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Mania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+    // main heading
+    <h1>Food Mania</h1>
+
+    // our headline
+    <h2>Presenting top 10 recipes for your ingredients :)</h2><br><br>
+
+    // textbox for ingredients
+    <label for="ingredients">Put in your Ingredients (comma separated):</label>
+    <input type="text" id="ingredients" placeholder="e.g., spinach, garlic"><br><br>
+
+    // dropdown for dietary preference
+    <label for="diet">Any dietary preference?:</label>
+    <select id="diet">
+        <option value="">None</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="gluten free">Gluten Free</option>
+    </select><br><br>
+
+    // button to search
+    <button id="search">Find Recipes</button><br><br>
+
+    <div id="results"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
